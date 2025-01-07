@@ -144,6 +144,7 @@ ol {
 
 .search-form__checkbox-list {
   display: flex;
+  flex-direction: row;
   gap: 15px;
 }
 
@@ -273,12 +274,6 @@ ol {
 
 .content__card-link:focus {
   outline: none;
-}
-
-
-.search-form__checkbox-list {
-  display: flex;
-  flex-direction: row;
 }
 
 .content__card-link:focus-visible {
